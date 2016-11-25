@@ -1,0 +1,152 @@
+.sidebar {
+  height: 100%;
+  position: fixed;
+  display: none;
+  flex-flow: column;
+  background: $sidebarBackgroundColor;
+  z-index: 10;
+
+  color: $sidebarColor;
+  width: $sidebarWidthCollasped;
+  box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.5);
+  transition: 425ms ease-in-out;
+
+  &-header {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px $sidebarPadding;
+    background: $sidebarHeaderBackgroundColor;
+    flex: 1.5 1.5 0;
+    // flex: 1 1 0;
+  }
+
+  &-nav {
+    padding: 0px $sidebarPadding;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    &-links {
+      margin-bottom: 20px;
+    }
+
+    &-items {
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: $sidebarColor;
+      transition: 425ms ease-in-out;
+      opacity: 1;
+      margin: 10px;
+    }
+
+    &-links.in-view li {
+      background: lighten($sidebarColor, 40);
+    }
+
+    &-links:hover li {
+      background: lighten($sidebarColor, 40);
+    }
+  }
+}
+
+.list {
+  list-style-type: disc;
+}
+
+#js-scrollspy {
+  align-self: center;
+  display: flex;
+}
+
+.book-icon {
+  fill: $sidebarColor;
+}
+
+.sidebar-expanded {
+  margin-left: -$sidebarWidth;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-flow: column;
+  background: $sidebarBackgroundColor;
+  z-index: 20;
+  color: $sidebarColor;
+  text-align: center;
+  width: $sidebarWidth;
+  box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.5);
+  transition: 425ms ease-in-out;
+
+  &-header {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px $sidebarPadding;
+    background: $sidebarHeaderBackgroundColor;
+    flex: 1.5 1.5 0;
+    // flex: 1 1 0;
+
+    &-title {
+      color: lighten($sidebarColor, 20);
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: 'Montserrat';
+      letter-spacing: 2px;
+      transition: 425ms ease-in-out;
+      margin-bottom: 0;
+      font-size: 0.875rem;
+    }
+  }
+
+  &-nav {
+    padding: 0px $sidebarPadding;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex: 10 10 0;
+
+    &-links {
+      margin-bottom: 25px;
+    }
+
+    &-items {
+      display: inline-block;
+      transition: 425ms ease-in-out;
+      margin: 5px;
+      font-size: 1rem;
+      color: lighten($sidebarColor, 10);
+      line-height: 1.5;
+    }
+
+    &-links.in-view li {
+      color: lighten($sidebarColor, 40);
+    }
+
+    &-links:hover li {
+      color: lighten($sidebarColor, 40);
+    }
+  }
+}
+
+#js-scrollspy {
+  display: flex;
+  flex: 10 10 0;
+}
+#js-scrollspy1 {
+  display: flex;
+  flex: 10 10 0;
+}
+
+/**
+ * ACTIVE STYLES
+ */
+
+.sidebar-expanded.is-active {
+  transform: translateX($sidebarWidth);
+}

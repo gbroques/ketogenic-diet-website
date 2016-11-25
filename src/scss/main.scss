@@ -1,0 +1,55 @@
+// Library Imports
+@import 'normalize/import-now';
+@import '../../node_modules/breakpoint-sass/stylesheets/breakpoint';
+
+// My Imports
+@import 'base';
+@import 'variables';
+@import 'utilities';
+@import 'typography';
+@import 'hamburger-settings';
+@import '../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
+@import 'sidebar';
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.main {
+  transition: 425ms ease-in-out;
+  width: 100%;
+}
+
+
+@import 'javascript';
+
+@include breakpoint($mobile) {
+  .sidebar {
+    display: flex;
+  }
+
+  .main {
+    margin-left: $sidebarWidthCollasped;
+  }
+
+  .hamburger.is-active {
+    transform: rotate(360deg) !important;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+
+
+}
+

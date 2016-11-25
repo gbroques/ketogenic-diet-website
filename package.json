@@ -1,0 +1,64 @@
+{
+  "name": "npm-build-boilerplate",
+  "version": "1.2.0",
+  "description": "A set of common build tasks written with npm scripts.",
+  "author": "Damon Bauer <hello@damonbauer.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damonbauer/npm-build-boilerplate"
+  },
+  "bugs": "https://github.com/damonbauer/npm-build-boilerplate/issues",
+  "keywords": [
+    "npm",
+    "scripts",
+    "npm scripts",
+    "watch",
+    "minify",
+    "compress"
+  ],
+  "scripts": {
+    "clean": "rimraf dist/{css/*,js/*,images/*}",
+    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
+    "scss": "node-sass --include-path node_modules/normalize-scss/sass/ --include-path node_modules/breakpoint-sass/stylesheets/ --output-style compressed -o dist/css src/scss",
+    "uglify": "uglifyjs dist/js/bundle.js -m -c -o dist/js/bundle.min.js",
+    "browserify": "mkdirp dist/js -p && browserify src/js/scrollspy.js src/js/main.js src/js/sidebar.js -o dist/js/bundle.js",
+    "imagemin": "imagemin src/images/* -o dist/images",
+    "icons": "svgo -f src/images/icons && mkdirp dist/images -p && svg-sprite-generate -d src/images/icons -o dist/images/icons.svg",
+    "serve": "browser-sync --no-notify --host=192.168.0.106 start --server --files \"dist/css/*.css, dist/js/*.js, **/*.html, !node_modules/**/*.html\"",
+    "build:css": "npm run scss && npm run autoprefixer",
+    "build:js": "npm run browserify && npm run uglify",
+    "build:images": "npm run imagemin && npm run icons",
+    "build:all": "npm run build:css && npm run build:js && npm run build:images",
+    "watch:css": "onchange \"src/scss\" -- npm run build:css",
+    "watch:js": "onchange \"src/js\" -- npm run build:js",
+    "watch:images": "onchange \"src/images\" -- npm run build:images",
+    "watch:all": "npm-run-all -p serve watch:css watch:js watch:images",
+    "postinstall": "npm run build:all && npm run watch:all"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "breakpoint-sass": "^2.7.0",
+    "browser-sync": "^2.12.8",
+    "eslint": "^2.10.2",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-promise": "^1.3.0",
+    "eslint-plugin-standard": "^1.3.2",
+    "imagemin-cli": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^3.7.0",
+    "npm-run-all": "^2.1.1",
+    "onchange": "^2.4.0",
+    "postcss-cli": "^2.5.2",
+    "rimraf": "^2.5.4",
+    "svg-sprite-generator": "0.0.7",
+    "svgo": "^0.6.6",
+    "uglify-js": "^2.6.2"
+  },
+  "dependencies": {
+    "hamburgers": "^0.6.0",
+    "normalize-scss": "^6.0.0",
+    "scrollspy-js": "^0.1.3",
+    "smooth-scroll": "cferdinandi/smooth-scroll"
+  }
+}

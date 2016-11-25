@@ -1,0 +1,8 @@
+
+.text-wrapper {
+  transition: 425ms ease-in-out;
+}
+
+.main.is-active .text-wrapper {
+  transform: translateX($sidebarWidth - ($sidebarWidthCollasped * 2));
+}
