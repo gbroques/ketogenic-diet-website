@@ -3,7 +3,7 @@
 	[
 		{
 			"path": ".",
-      "name": "Ketogenic Website",
+      "name": "Keto Site",
       "folder_exclude_patterns": ["node_modules", "dist"],
       "file_exclude_patterns": [".editorconfig", ".eslintrc.js", ".yarnclean", "yarn.lock", "README.md", "CONTRIBUTING.md", ".gitignore"],
 		}

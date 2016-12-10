@@ -1,0 +1,629 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"probabilities"
+			],
+			[
+				"tan",
+				"transitionend"
+			],
+			[
+				"vedning",
+				"vending-ur-way"
+			],
+			[
+				"Web",
+				"WebSockets"
+			],
+			[
+				"Micr",
+				"Microprocessors"
+			],
+			[
+				"C-",
+				"C-E-G-B"
+			],
+			[
+				"exhbi",
+				"exhibits"
+			],
+			[
+				"down",
+				"downwards"
+			],
+			[
+				"rhyth",
+				"rhythmical"
+			],
+			[
+				"harmon",
+				"harmonically"
+			],
+			[
+				"reo",
+				"records"
+			],
+			[
+				"Mater",
+				"Material-Theme-Darker"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"to",
+				"totalAmount"
+			],
+			[
+				"Fuc",
+				"Functions"
+			],
+			[
+				"get",
+				"getProfile"
+			],
+			[
+				"lis",
+				"listener"
+			],
+			[
+				"listener",
+				"listeners〔variable〕"
+			],
+			[
+				"square",
+				"squareAll"
+			],
+			[
+				"function",
+				"functional"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"sele",
+				"select\tHTML/Element"
+			],
+			[
+				"br",
+				"browserSync"
+			],
+			[
+				"b",
+				"bwellsproductions"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimeLinter setting",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instAl",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"sbc setting",
+				"SBC: Settings – User"
+			],
+			[
+				"sbc s",
+				"SBC: Settings – User"
+			],
+			[
+				"sbc set",
+				"SBC: Settings – User"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"removc",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: IN",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 207.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/g/batcave/new-project"
+	],
+	"file_history":
+	[
+		"/C/Users/g/batcave/new-project/keto-website.sublime-project",
+		"/C/Users/g/batcave/new-project/ketogenic-website.sublime-project",
+		"/C/Users/g/batcave/new-project/src/js/scrollspy.js",
+		"/C/Users/g/batcave/new-project/src/images/book.svg",
+		"/C/Users/g/batcave/new-project/dist/images/icons.svg",
+		"/C/Users/g/batcave/new-project/src/js/sidebar.js",
+		"/C/Users/g/batcave/new-project/package.json",
+		"/C/Users/g/batcave/new-project/dist/js/bundle.js",
+		"/C/Users/g/batcave/new-project/dist/js/bundle.min.js",
+		"/C/Users/g/batcave/new-project/src/scss/_hamburger-settings.scss",
+		"/C/Users/g/batcave/new-project/src/scss/_variables.scss",
+		"/C/Users/g/batcave/new-project/src/js/main.js",
+		"/C/Users/g/batcave/new-project/src/scss/_typography.scss",
+		"/C/Users/g/batcave/new-project/src/scss/_base.scss",
+		"/C/Users/g/batcave/new-project/dist/css/main.css",
+		"/C/Users/g/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/g/batcave/npm-build-boilerplate/ketogenic-website.sublime-project",
+		"/C/Users/g/batcave/npm-build-boilerplate/src/css/main.css",
+		"/C/Users/g/batcave/npm-build-boilerplate/test.css",
+		"/C/Users/g/batcave/npm-build-boilerplate/test.min.css",
+		"/C/Users/g/batcave/ketogenic-diet-website/assets/sass/style.scss",
+		"/C/Users/g/batcave/ketogenic-diet-website/index.html",
+		"/C/Users/g/batcave/ketogenic-diet-website/gulpfile.js",
+		"/C/Users/g/batcave/ketogenic-diet-website/assets/sass/modules/_layout.scss",
+		"/C/Users/g/batcave/ketogenic-diet-website/assets/sass/modules/_globals.scss",
+		"/C/Users/g/batcave/ketogenic-diet-website/assets/sass/sassline-base/_variables.scss",
+		"/C/Users/g/batcave/ketogenic-diet-website/assets/sass/sassline-base/_typography.scss",
+		"/C/Users/g/batcave/ketogenic-diet-website/assets/sass/sassline-base/_layouts.scss",
+		"/C/Users/g/batcave/ketogenic-diet-website/assets/sass/modules/_sidebar.scss",
+		"/C/Users/g/batcave/ketogenic-diet-website/assets/sass/modules/_main.scss",
+		"/C/Users/g/batcave/ketogenic-diet-website/node_modules/sntp/lib/index.js",
+		"/G/blogfolio/about.md",
+		"/G/blogfolio/contact.html",
+		"/G/blogfolio/_sass/sassline/modules/_globals.scss",
+		"/G/blogfolio/_includes/header.html",
+		"/G/blogfolio/_config.yml",
+		"/G/blogfolio/_posts/2016-10-2-hire-me.md",
+		"/G/portfolio/_posts/2016-08-28-how-to-setup-a-free-blog-and-portfolio-with-jekyll.md",
+		"/G/portfolio/assets/randys-jewelry/css/main.css",
+		"/G/portfolio/assets/variety-vending/css/main.css",
+		"/G/portfolio/assets/variety-vending/index.html",
+		"/G/portfolio/assets/randys-jewelry/index.html",
+		"/G/portfolio/assets/k-rock-productions/index.html",
+		"/G/portfolio/projects.html",
+		"/G/portfolio/assets/k-rock-productions/css/main.css",
+		"/C/Users/g/batcave/gbr/AwesomeProject/index.android.js",
+		"/G/portfolio/_sass/sassline/sassline-base/_typography.scss",
+		"/G/portfolio/_sass/sassline/sassline-base/_variables.scss",
+		"/G/portfolio/_sass/sassline/modules/_globals.scss",
+		"/G/portfolio/_sass/sassline/modules/_header.scss",
+		"/G/portfolio/_includes/footer.html",
+		"/G/portfolio/_includes/head.html",
+		"/G/portfolio/_sass/_sassline.scss",
+		"/G/portfolio/assets/css/main.scss",
+		"/G/portfolio/_sass/hamburgers/types/_emphatic.scss",
+		"/G/portfolio/_sass/hamburgers/_hamburgers.scss",
+		"/G/portfolio/_includes/header.html",
+		"/G/portfolio/about.md",
+		"/G/portfolio/_posts/2016-08-28-should-i-go-to-school-to-become-a-web-developer.md",
+		"/G/portfolio/_posts/2016-08-28-test.md",
+		"/G/portfolio/assets/js/responsive-nav.js",
+		"/G/portfolio/_sass/sassline/modules/_nav.scss",
+		"/G/portfolio/_sass/sassline/modules/_footer.scss",
+		"/G/portfolio/_sass/hamburgers/_base.scss",
+		"/G/portfolio/_sass/sassline/modules/_hamburgers.scss",
+		"/C/Users/g/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/G/portfolio/_layouts/post.html",
+		"/G/portfolio/_sass/sassline/sassline-base/_form.scss",
+		"/G/portfolio/contact.html",
+		"/G/portfolio/assets/js/hamburger.js",
+		"/G/portfolio/index.html",
+		"/G/portfolio/_posts/2016-08-28-how-to-setup-a-jekyll-blog-with-virtualbox.md",
+		"/G/portfolio/_sass/sassline/_sassline-base.scss",
+		"/G/portfolio/coursework.html",
+		"/G/portfolio/assets/ragans-jewelry/css/main.css",
+		"/G/portfolio/assets/b-wells-productions/index.html",
+		"/G/portfolio/assets/ragans-jewelry/index.html",
+		"/G/portfolio/assets/vending-ur-way/index.html",
+		"/G/portfolio/ragans-jewelry.html",
+		"/G/portfolio/coursework.md",
+		"/G/portfolio/todo.md",
+		"/G/portfolio/_layouts/alternative.html",
+		"/G/portfolio/assets/b-wells-productions/css/main.css",
+		"/G/portfolio/b-wells-productions.html",
+		"/G/portfolio/randys-jewelry.html",
+		"/G/portfolio/randys-jewelry/index.html",
+		"/G/portfolio/_layouts/project.html",
+		"/G/portfolio/assets/img/menu.svg",
+		"/C/Users/g/Downloads/menu_36px.svg",
+		"/C/Users/g/Downloads/close_18px.svg",
+		"/G/portfolio/_config.yml",
+		"/C/Users/g/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/G/portfolio/resume.html",
+		"/G/portfolio/projects.md",
+		"/G/portfolio/package.json",
+		"/G/portfolio/_site/about/index.html",
+		"/G/portfolio/_posts/2016-08-28-welcome-to-jekyll.markdown",
+		"/C/Users/g/batcave/notes/rsa-experiment-edm/Dance-Music-Manual/chapter2.md",
+		"/C/Users/g/blog/docker-compose.yml",
+		"/C/Users/g/blog/_sass/_syntax-highlighting.scss",
+		"/C/Users/g/blog/_sass/sassline/sassline-base/_variables.scss",
+		"/C/Users/g/blog/_sass/_sassline.scss",
+		"/C/Users/g/blog/assets/css/main.scss",
+		"/C/Users/g/blog/gulpfile.js",
+		"/C/Users/g/blog/_config.yml",
+		"/C/Users/g/blog/Dockerfile",
+		"/C/Users/g/blog/package.json",
+		"/C/Users/g/blog/_sass/sassline/_sassline-base.scss",
+		"/C/Users/g/blog/_sass/sassline/sassline-base/_mixins.scss",
+		"/C/Users/g/blog/_site/assets/css/main.css",
+		"/C/Users/g/blog/app.env",
+		"/C/Users/g/Desktop/download",
+		"/C/Users/g/batcave/blog/gulpfil.js",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/webpack.config.js",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/functional-programming-in-javascript.md",
+		"/C/Users/g/batcave/blog/Gemfile",
+		"/C/Users/g/batcave/blog/_site/index.html",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/readme.md",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/package.json",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/es6.md",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/.eslintrc",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/world.jsx",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/hello.jsx",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/bundle.js",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/counter_reducer.js",
+		"/C/Users/g/batcave/notes/getting-started-with-redux/.gitignore",
+		"/C/Users/g/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/g/.bash_profile"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"C:\\Users\\g\\batcave\\ketogenic-diet-website\\assets\\sass",
+			"C:\\Users\\g\\batcave\\ketogenic-diet-website",
+			"C:\\Users\\g\\blog\\_sass\\sassline",
+			"C:\\Users\\g\\batcave"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			".",
+			"625",
+			"red",
+			";\n",
+			"%;\n",
+			"\n}",
+			"breakpoint",
+			"  // flex: 1.618 0 500px;\n",
+			"yell",
+			"node_modules",
+			"css",
+			"scss",
+			"icon",
+			"svg",
+			"svgo",
+			"svg",
+			"svgo",
+			"50em)",
+			"50em",
+			"affix",
+			"8",
+			"asideclass",
+			"ragans",
+			"raga",
+			"vending",
+			"vending-ur-way",
+			"Vending Ur Way",
+			"Ragan",
+			"wells",
+			"b",
+			"b-wells",
+			"wells",
+			">\n",
+			"B Wells",
+			"rippleJS",
+			"customToggle",
+			"hover",
+			".80",
+			".85",
+			"color",
+			";\n",
+			"0.8",
+			"font-size",
+			"active",
+			"customToggle",
+			"opts.customToggle",
+			"opts.label",
+			"navToggle",
+			"menu",
+			"font-family",
+			"green",
+			"page",
+			"applications",
+			"img/",
+			"asset",
+			"../fonts",
+			"icon",
+			"font",
+			"img",
+			"Randy",
+			"Ragan",
+			".active",
+			"active",
+			"%)",
+			"select",
+			"tap",
+			"select",
+			"â",
+			"3s6.md",
+			"background-image",
+			"return",
+			");\n",
+			"World",
+			"notes",
+			" -",
+			";\n",
+			"}\n",
+			"config",
+			"ssl",
+			"ctrl\", \"shift",
+			"close_file",
+			"area",
+			"true",
+			"\",\n",
+			"?>\n",
+			".groques",
+			"--production",
+			"jshint",
+			"groques",
+			"kljdaf783cdk43",
+			"shared",
+			"/vagrant/",
+			"\"\"",
+			"  box-sizing: border-box;",
+			"{%"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 174.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/builds/PSR-2.sublime-build",
+	"project": "keto-site.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"reson",
+				"assets\\js\\responsive-nav.js"
+			],
+			[
+				"routes",
+				"app\\Http\\routes.php"
+			],
+			[
+				"_synt",
+				"_sass\\_syntax-highlighting.scss"
+			],
+			[
+				"header",
+				"_includes\\header.html"
+			],
+			[
+				"hea",
+				"_includes\\head.html"
+			],
+			[
+				"_base",
+				"_sass\\_base.scss"
+			],
+			[
+				"main",
+				"assets\\css\\main.scss"
+			],
+			[
+				"head",
+				"_includes\\head.html"
+			],
+			[
+				"footer",
+				"_includes\\footer.html"
+			],
+			[
+				"querybuil",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php"
+			],
+			[
+				"builder",
+				"vendor\\nikic\\php-parser\\lib\\PhpParser\\Builder.php"
+			],
+			[
+				"article",
+				"app\\Article.php"
+			],
+			[
+				"route",
+				"app\\Http\\routes.php"
+			],
+			[
+				"",
+				"vendor\\illuminate\\html\\HtmlServiceProvider.php"
+			],
+			[
+				"htmlser",
+				"vendor\\illuminate\\html\\HtmlServiceProvider.php"
+			],
+			[
+				"app.bal",
+				"resources\\views\\app.blade.php"
+			],
+			[
+				"routes.php",
+				"app\\Http\\routes.php"
+			],
+			[
+				"about.bla",
+				"resources\\views\\pages\\about.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
