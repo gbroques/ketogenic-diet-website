@@ -1,0 +1,20 @@
+footer {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+footer p:before {
+  content: '';
+  width: 250px;
+  height: 0.7px;
+  display: block;
+  margin: 0 auto;
+  background: lighten($captionColor, 20);
+  margin-bottom: 35px;
+}
+
+footer p {
+  color: $captionColor;
+  text-align: center;
+  padding-top: 20px;
+}

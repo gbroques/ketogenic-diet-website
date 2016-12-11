@@ -5,7 +5,6 @@
   flex-flow: column;
   background: $sidebarBackgroundColor;
   z-index: 10;
-
   color: $sidebarColor;
   width: $sidebarWidthCollasped;
   box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -28,6 +27,7 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    list-style-type: none;
 
     &-links {
       margin-bottom: 20px;
@@ -58,7 +58,7 @@
   list-style-type: disc;
 }
 
-#js-scrollspy {
+#js-scrollspy2 {
   align-self: center;
   display: flex;
 }
@@ -138,7 +138,8 @@
   display: flex;
   flex: 10 10 0;
 }
-#js-scrollspy1 {
+
+#js-scrollspy2 {
   display: flex;
   flex: 10 10 0;
 }

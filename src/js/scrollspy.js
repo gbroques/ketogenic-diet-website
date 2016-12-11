@@ -13,7 +13,7 @@ var spy = new ScrollSpy('#js-scrollspy', {
   className: 'in-view'
 });
 
-var spy2 = new ScrollSpy('#js-scrollspy1', {
+var spy2 = new ScrollSpy('#js-scrollspy2', {
   nav: '.js-scrollspy-nav > a',
   className: 'in-view'
 });

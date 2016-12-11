@@ -1,12 +1,21 @@
 
+// Caption
+$captionColor: #95a5a6;
+
 // Sidebar
 $sidebarHeaderBackgroundColor: #263237;
 $sidebarBackgroundColor: #37474e;
 $sidebarColor: #79909b;
+// $sidebarHeaderBackgroundColor: #1B5E20;
+// $sidebarBackgroundColor: #2E7D32;
+// $sidebarColor: #A5D6A7;
+
 $sidebarColorLight: lighten($sidebarColor, 30);
 $sidebarPadding: 20px;
 $sidebarWidthCollasped: 80px;
 $sidebarWidth: 250px;
+
+$accentColor: #FF9800;
 
 // Breakpoints
 $mobile: 768px;

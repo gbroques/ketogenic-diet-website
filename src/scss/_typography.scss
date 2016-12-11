@@ -48,11 +48,89 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Merriweather', serif;
   color: rgba(0,0,0,.67);
+  margin-top: $base-line-height;
   margin-bottom: $base-line-height * 0.5;
-  line-height: $base-line-height * 3;
+  line-height: $base-line-height * 2;
 }
 
 p {
   margin-bottom: $base-line-height * 2;
 }
 
+blockquote {
+  quotes: none;
+
+  & p {
+    border-left: .15rem solid $accentColor;
+    font-style: italic;
+    padding-left: 1rem;
+  }
+}
+
+img {
+  margin-bottom: $base-line-height;
+}
+
+.caption {
+  color: $captionColor;
+  font-size: 0.9375rem;
+
+  & a,
+  & a:visited {
+    color: $captionColor;
+  }
+
+  & a:hover {
+    color: lighten($captionColor, 15);
+  }
+}
+
+a,
+a:visited {
+  color: $accentColor;
+  transition: 350ms ease-in-out;
+}
+
+a:hover {
+  color: lighten($accentColor, 15);
+}
+
+@include breakpoint($mobile) {
+  blockquote {
+    margin-left: -1rem;
+  }
+}
+
+.page-title {
+  font-size: 2.25rem;
+  margin: 35px 0;
+
+}
+
+hr {
+  border-top: 1px solid #8c8b8b;
+  text-align: center;
+  margin: 50px 0;
+}
+
+hr:after {
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  padding: 0 10px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  color: #8c8b8b;
+  font-size: 16px;
+  transform: rotate(60deg);
+}
+
+ol {
+  padding-left: 0;
+  margin-bottom: $base-line-height * 2;
+}
+
+ul {
+  margin-bottom: $base-line-height * 2;
+}
