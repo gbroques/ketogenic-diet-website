@@ -11,6 +11,8 @@
 @import '../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
 @import 'sidebar';
 @import 'footer';
+@import 'nav';
+@import 'state-indicator';
 
 .flex-container {
   display: flex;
@@ -51,6 +53,8 @@
     line-height: 1.75;
   }
 
-
+  .mobile-nav {
+    display: none;
+  }
 }
 

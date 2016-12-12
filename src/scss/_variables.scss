@@ -1,14 +1,13 @@
 
 // Caption
+$bodyColor: rgba(0,0,0,.8);
+$headingColor: rgba(0,0,0,.67);
 $captionColor: #95a5a6;
 
 // Sidebar
 $sidebarHeaderBackgroundColor: #263237;
 $sidebarBackgroundColor: #37474e;
 $sidebarColor: #79909b;
-// $sidebarHeaderBackgroundColor: #1B5E20;
-// $sidebarBackgroundColor: #2E7D32;
-// $sidebarColor: #A5D6A7;
 
 $sidebarColorLight: lighten($sidebarColor, 30);
 $sidebarPadding: 20px;

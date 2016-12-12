@@ -22,7 +22,7 @@
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
     "scss": "node-sass --include-path node_modules/normalize-scss/sass/ --include-path node_modules/breakpoint-sass/stylesheets/ --output-style compressed -o dist/css src/scss",
     "uglify": "uglifyjs dist/js/bundle.js -m -c -o dist/js/bundle.min.js",
-    "browserify": "mkdirp dist/js -p && browserify src/js/scrollspy.js src/js/main.js src/js/sidebar.js -o dist/js/bundle.js",
+    "browserify": "mkdirp dist/js -p && browserify src/js/state-indicator.js src/js/scrollspy.js src/js/main.js src/js/sidebar.js -o dist/js/bundle.js",
     "imagemin": "imagemin src/images/* -o dist/images",
     "icons": "svgo -f src/images/icons && mkdirp dist/images -p && svg-sprite-generate -d src/images/icons -o dist/images/icons.svg",
     "serve": "browser-sync --no-notify --host=192.168.0.106 start --server --files \"dist/css/*.css, dist/js/*.js, **/*.html, !node_modules/**/*.html\"",

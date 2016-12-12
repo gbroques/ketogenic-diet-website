@@ -1,3 +1,4 @@
+var stateIndicator = require('./state-indicator.js');
 var hamburger = document.querySelector('.hamburger');
 var expandedSidebar = document.querySelector('.sidebar-expanded');
 var main = document.querySelector('.main');

@@ -1,0 +1,21 @@
+.mobile-nav {
+  height: 240px;
+  margin-top: -240px;
+}
+
+.mobile-nav-links {
+  border-bottom: 1px solid rgba(0,0,0,.3);
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  color: $bodyColor !important;
+  transition: 425ms ease-in-out;
+}
+
+.mobile-nav-links:hover {
+  color: rgba(0,0,0,.5) !important;
+}
+
+.mobile-nav-items {
+
+}
