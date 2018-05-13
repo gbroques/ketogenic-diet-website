@@ -114,7 +114,7 @@ hr {
 }
 
 hr:after {
-  content: '&sect;';
+  content: '\00A7';
   display: inline-block;
   position: relative;
   top: -14px;
