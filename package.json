@@ -17,15 +17,18 @@
     "minify",
     "compress"
   ],
+  "config": {
+    "base": "dist"
+  },
   "scripts": {
-    "clean": "rimraf dist/{css/*,js/*,images/*}",
-    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
-    "scss": "node-sass --include-path node_modules/normalize-scss/sass/ --include-path node_modules/breakpoint-sass/stylesheets/ --output-style compressed -o dist/css src/scss",
-    "uglify": "uglifyjs dist/js/bundle.js -m -c -o dist/js/bundle.min.js",
-    "browserify": "mkdirp dist/js -p && browserify src/js/state-indicator.js src/js/scrollspy.js src/js/main.js src/js/sidebar.js -o dist/js/bundle.js",
-    "imagemin": "imagemin src/images/* -o dist/images",
-    "icons": "svgo -f src/images/icons && mkdirp dist/images -p && svg-sprite-generate -d src/images/icons -o dist/images/icons.svg",
-    "serve": "browser-sync --no-notify --host=192.168.0.106 start --server --files \"dist/css/*.css, dist/js/*.js, **/*.html, !node_modules/**/*.html\"",
+    "clean": "rimraf $npm_package_config_base/{css/*,js/*,images/*}",
+    "autoprefixer": "postcss -u autoprefixer -r $npm_package_config_base/css/*",
+    "scss": "node-sass --include-path node_modules/normalize-scss/sass/ --include-path node_modules/breakpoint-sass/stylesheets/ --output-style compressed -o $npm_package_config_base/css src/scss",
+    "uglify": "uglifyjs $npm_package_config_base/js/bundle.js -m -c -o $npm_package_config_base/js/bundle.min.js",
+    "browserify": "mkdirp $npm_package_config_base/js -p && browserify src/js/state-indicator.js src/js/scrollspy.js src/js/main.js src/js/sidebar.js -o $npm_package_config_base/js/bundle.js",
+    "imagemin": "imagemin src/images/* -o $npm_package_config_base/images",
+    "icons": "svgo -f src/images/icons && mkdirp $npm_package_config_base/images -p && svg-sprite-generate -d src/images/icons -o $npm_package_config_base/images/icons.svg",
+    "serve": "browser-sync --no-notify --host=192.168.0.106 start --server --files \"$npm_package_config_base/css/*.css, $npm_package_config_base/js/*.js, **/*.html, !node_modules/**/*.html\"",
     "build:css": "npm run scss && npm run autoprefixer",
     "build:js": "npm run browserify && npm run uglify",
     "build:images": "npm run imagemin && npm run icons",
